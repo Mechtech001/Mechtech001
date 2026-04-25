@@ -1,4 +1,3 @@
-cat > README.md << 'ENDOFFILE'
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=220&section=header&text=ADITYA%20SHARMA&fontSize=42&fontColor=e0e0e0&animation=glitch&fontAlignY=35&desc=Computer%20Science%20@%20IIIT%20Ranchi&descSize=15&descAlignY=55&descAlign=50&descColor=a0a0a0" width="100%"/>
@@ -144,13 +143,24 @@ Full-stack platform with **15+ RESTful endpoints** across **10 schemas**, real-t
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Mechtech001&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true&hide=issues,prs" width="49%"/>
+<table>
+<tr>
+<td width="50%">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mechtech001&layout=compact&theme=chartreuse-dark&hide_border=true" width="40%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Mechtech001&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true&hide=issues,prs" width="100%"/>
+
+</td>
+<td width="50%">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mechtech001&layout=compact&theme=chartreuse-dark&hide_border=true" width="100%"/>
+
+</td>
+</tr>
+</table>
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Mechtech001&theme=chartreuse-dark&hide_border=true" width="70%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Mechtech001&theme=chartreuse-dark&hide_border=true" width="80%"/>
 
 <br/>
 
@@ -168,7 +178,7 @@ Full-stack platform with **15+ RESTful endpoints** across **10 schemas**, real-t
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Mechtech001&theme=github-ghosted&hide_border=true&area=true&area_color=00ff88&color=00ff88&line=00ff88&point=00ff88" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Mechtech001&theme=github-dark&hide_border=true&area=true&area_color=00ff88&color=00ff88&line=00ff88&point=00ff88&bg_color=0d1117" width="95%"/>
 
 </div>
 
@@ -189,4 +199,3 @@ Full-stack platform with **15+ RESTful endpoints** across **10 schemas**, real-t
 <img src="https://komarev.com/ghpvc/?username=Mechtech001&color=00ff88&style=flat-square" alt="Profile views"/>
 
 </div>
-ENDOFFILE
