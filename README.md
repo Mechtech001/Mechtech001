@@ -156,7 +156,7 @@ Full-stack platform with **15+ RESTful endpoints** across **10 schemas**, real-t
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Mechtech001&theme=chartreuse-dark&hide_border=true" width="80%"/>
+<img src="https://streak-stats.demolab.com/?user=Mechtech001&theme=chartreuse-dark&hide_border=true" width="80%"/>
 
 <br/>
 
