@@ -156,10 +156,6 @@ Full-stack platform with **15+ RESTful endpoints** across **10 schemas**, real-t
 
 <br/>
 
-<img src="https://streak-stats.demolab.com/?user=Mechtech001&theme=chartreuse-dark&hide_border=true" width="80%"/>
-
-<br/>
-
 <img src="https://github-profile-trophy.vercel.app/?username=Mechtech001&theme=matrix&no-frame=true&no-bg=true&column=7" width="100%"/>
 
 <br/>
