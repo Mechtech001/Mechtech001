@@ -166,11 +166,7 @@ Full-stack platform with **15+ RESTful endpoints** across **10 schemas**, real-t
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=Mechtech001&background=0d1117&border=00ff4133&stroke=00ff41&ring=00ff41&fire=ff6600&currStreakLabel=00ff41&sideLabels=c9d1d9&dates=8b949e&hide_border=true" width="82%"/>
-
-<br/><br/>
-
-[![Trophy](https://github-profile-trophy.vercel.app/?username=Mechtech001&theme=onestar&no-frame=true&no-bg=true&column=7&margin-w=5)](https://github.com/ryo-ma/github-profile-trophy)
+<img src="https://streak-stats.demolab.com?user=Mechtech001&theme=dark&hide_border=true&background=0D1117&stroke=00FF41&ring=00FF41&fire=FF6600&currStreakLabel=00FF41&sideLabels=C9D1D9&dates=8B949E" width="82%"/>
 
 </div>
 
