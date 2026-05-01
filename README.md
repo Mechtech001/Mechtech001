@@ -161,10 +161,6 @@ Full-stack platform with **15+ RESTful endpoints** across **10 schemas**, real-t
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Mechtech001&show_icons=true&theme=dark&hide_border=true&count_private=true&hide=issues,prs&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9&bg_color=0d1117" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mechtech001&layout=compact&theme=dark&hide_border=true&title_color=00ff41&text_color=c9d1d9&bg_color=0d1117" width="48%"/>
-
-<br/><br/>
 
 <img src="https://streak-stats.demolab.com?user=Mechtech001&theme=dark&hide_border=true&background=0D1117&stroke=00FF41&ring=00FF41&fire=FF6600&currStreakLabel=00FF41&sideLabels=C9D1D9&dates=8B949E" width="82%"/>
 
