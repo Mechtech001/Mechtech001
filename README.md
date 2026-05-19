@@ -30,7 +30,7 @@
 > ✅ **ALL SYSTEMS OPERATIONAL**
 >
 > 🖥️ **NAME:** Aditya Sharma
-> 💼 **ROLE:** Full-Stack Developer
+> 💼 **ROLE:** Full-Stack Developer, Node.js developer
 > 🎓 **EDU:** B.Tech CSE @ IIIT Ranchi (2023-2027)
 > 🔄 **STACK:** MongoDB │ Express │ React │ Node.js
 > 🎯 **FOCUS:** Backend Architecture & API Design
