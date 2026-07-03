@@ -8,15 +8,15 @@
 
 <br/><br/>
 
-<a href="https://www.linkedin.com/in/aditya-sharma-516491321"><img src="https://img.shields.io/badge/LinkedIn-1a1a24?style=for-the-badge&logo=linkedin&logoColor=E8B978" /></a>
-<a href="mailto:aditya16may@gmail.com"><img src="https://img.shields.io/badge/Email-1a1a24?style=for-the-badge&logo=gmail&logoColor=E8B978" /></a>
-<a href="https://github.com/Mechtech001"><img src="https://img.shields.io/badge/GitHub-1a1a24?style=for-the-badge&logo=github&logoColor=E8B978" /></a>
+<a href="https://www.linkedin.com/in/aditya-sharma-516491321"><img src="https://img.shields.io/badge/LinkedIn-E8B978?style=for-the-badge&logo=linkedin&logoColor=0f0f14" /></a>
+<a href="mailto:aditya16may@gmail.com"><img src="https://img.shields.io/badge/Email-E8B978?style=for-the-badge&logo=gmail&logoColor=0f0f14" /></a>
+<a href="https://github.com/Mechtech001"><img src="https://img.shields.io/badge/GitHub-E8B978?style=for-the-badge&logo=github&logoColor=0f0f14" /></a>
 
 </div>
 
 <br/>
 
-## About
+### <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=1&pause=100000&color=E8B978&center=false&vCenter=true&width=200&height=40&lines=About" alt="About"/>
 
 I build backend systems and try to actually understand what's happening under the hood rather than assembling them from tutorials. Right now that means: auth flows, message queues, database schema design, and the occasional 2am rabbit hole into why Docker networking doesn't work the way I assumed it would.
 
@@ -30,23 +30,28 @@ A few things about how I work:
 
 <br/>
 
-## Stack
+### <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=1&pause=100000&color=7FB3D5&center=false&vCenter=true&width=200&height=40&lines=Stack" alt="Stack"/>
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=js,ts,nodejs,express,react,mongodb,postgres,mysql,cpp,python,html,css,tailwind,docker,git,figma,linux,postman,aws&theme=dark" alt="Tech Stack"/>
+<img src="https://skillicons.dev/icons?i=js,ts,nodejs,express,react,mongodb,postgres,mysql,cpp,c,py,html,css,tailwind,docker,kubernetes,kafka,redis,go,git,github,vscode,figma,linux,npm,postman,aws&theme=dark" alt="Tech Stack"/>
 
 </div>
 
 <br/>
 
-**Core:** Node.js · Express.js · MongoDB · TypeScript · React
-**Expanding into:** Go, Apache Kafka, Redis, Docker, Kubernetes
+**Languages:** JavaScript · TypeScript · C++ · C · Python · SQL
+**Frontend:** React · Tailwind CSS · HTML/CSS
+**Backend:** Node.js · Express.js · Socket.io
+**Databases:** MongoDB · PostgreSQL · MySQL · Redis
+**Infra & Messaging:** Docker · Kubernetes · Apache Kafka · NGINX · AWS
 **Auth & APIs:** JWT · OAuth2 · REST · RBAC · idempotent API design
+**Tools:** Git · GitHub · VS Code · Postman · Figma · Linux
+**Currently learning:** Go
 
 <br/>
 
-## Projects I'd actually walk you through
+### <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=1&pause=100000&color=E89B72&center=false&vCenter=true&width=650&height=40&lines=Projects+I%27d+actually+walk+you+through" alt="Projects"/>
 
 Not a list of every repo — just the ones where I made real decisions and hit real problems.
 
@@ -96,7 +101,15 @@ Built this specifically to stop treating "microservices" as a buzzword. A React 
 
 <br/>
 
-## Right now
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=Mechtech001&theme=dark&hide_border=true&background=0F0F14&ring=E8B978&fire=E8B978&currStreakLabel=E8B978&sideLabels=8A8A9A&dates=8A8A9A&stroke=1a1a24" width="65%"/>
+
+</div>
+
+<br/>
+
+### <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=1&pause=100000&color=8FBF8F&center=false&vCenter=true&width=250&height=40&lines=Right+now" alt="Right now"/>
 
 ```
 GDG UI/UX Lead        →  campus design systems + workshops
@@ -107,13 +120,13 @@ Kriti Club President  →  running the show for our college's cultural fest
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Mechtech001&show_icons=true&theme=dark&hide_border=true&bg_color=0f0f14&title_color=E8B978&icon_color=E8B978&text_color=8A8A9A" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mechtech001&layout=compact&theme=dark&hide_border=true&bg_color=0f0f14&title_color=E8B978&text_color=8A8A9A" height="165"/>
+<img src="https://img.shields.io/github/followers/Mechtech001?style=for-the-badge&logo=github&logoColor=0f0f14&label=Followers&labelColor=E8B978&color=1a1a24" height="32"/>
+<img src="https://komarev.com/ghpvc/?username=Mechtech001&style=for-the-badge&color=E8B978&label=PROFILE+VIEWS&labelColor=1a1a24" height="32"/>
 
 </div>
 
 <br/>
 
 <div align="center">
-<sub>Based in Rewari, Haryana · Usually awake and building past midnight</sub>
+<sub>Usually awake and building past midnight</sub>
 </div>
