@@ -103,8 +103,11 @@ Built this specifically to stop treating "microservices" as a buzzword. A React 
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats-eight.vercel.app/?user=Mechtech001&theme=dark&hide_border=true&background=0F0F14&ring=E8B978&fire=E8B978&currStreakLabel=E8B978&sideLabels=8A8A9A&dates=8A8A9A&stroke=1a1a24" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mechtech001&layout=compact&theme=dark&hide_border=true&bg_color=0F0F14&title_color=E8B978&text_color=8A8A9A&langs_count=8" width="48%"/>
+<img src="https://github-readme-stats-fast.vercel.app/api/streak?username=Mechtech001&theme=dark&hide_border=true&bg_color=0F0F14&title_color=E8B978&text_color=8A8A9A&icon_color=E8B978&border_color=1a1a24" width="48%"/>
+
+<br/>
+
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=Mechtech001&layout=compact&langs_count=6&theme=dark&hide_border=true&bg_color=0F0F14&title_color=E8B978&text_color=8A8A9A&border_color=1a1a24" width="48%"/>
 
 </div>
 
