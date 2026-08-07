@@ -1,185 +1,193 @@
-<svg fill="none" viewBox="0 0 1200 2520" width="1200" height="2520" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 1520" width="100%" style="border:1px solid #1A1A1A;display:block;background:#0A0A0F">
+  <defs>
+    <linearGradient id="hgrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0A0F"/>
+      <stop offset="1" stop-color="#030305"/>
+    </linearGradient>
+  </defs>
 
-        @keyframes scan { 0%{transform:translateY(-80px);opacity:0} 10%{opacity:.12} 90%{opacity:.12} 100%{transform:translateY(720px);opacity:0} }
-        @keyframes grad   { 0%{background-position:0% 50%} 50%{background-position:100% 50%} 100%{background-position:0% 50%} }
-        @keyframes fadeup { from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:translateY(0)} }
-        @keyframes blink  { 0%,49%{opacity:1} 50%,100%{opacity:0} }
-        @keyframes pulseborder { 0%,100%{opacity:.5} 50%{opacity:1} }
+  <rect width="880" height="1520" fill="url(#hgrad)"/>
 
-        *{box-sizing:border-box;margin:0;padding:0}
-        html,body{margin:0;padding:0}
-        .page{width:1200px;background:#090B10;color:#F4F7FA;font-family:'JetBrains Mono',monospace;position:relative;overflow:hidden}
+  <!-- frame -->
 
-        /* ── HERO ── */
-        .hero{position:relative;height:720px;padding:120px 72px 0;overflow:hidden;border-bottom:1px solid #1E2540}
-        .hero-scan{position:absolute;left:0;right:0;top:0;height:80px;background:linear-gradient(transparent,#3D5EFF22,transparent);animation:scan 6s linear infinite}
-        .hero-bg{position:absolute;right:-40px;top:60px;width:560px;height:560px;opacity:.18;filter:blur(2px)}
-        .hero-ghost{position:absolute;left:40px;bottom:-60px;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:240px;line-height:1;letter-spacing:-.04em;color:transparent;-webkit-text-stroke:1px #1E2540;white-space:nowrap;opacity:.55;pointer-events:none}
-        .hero-tag{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#C1FF72;margin-bottom:24px;animation:fadeup .6s ease both}
-        .hero-name{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:128px;line-height:.88;letter-spacing:-.045em;margin-bottom:28px;animation:fadeup .6s .05s ease both}
-        .hero-name .at{color:#3D5EFF}
-        .hero-tagline{font-family:'Space Grotesk',sans-serif;font-size:24px;font-weight:500;line-height:1.35;color:#F4F7FA;max-width:760px;margin-bottom:22px;animation:fadeup .6s .1s ease both}
-        .hero-rolepill{display:inline-block;margin-left:10px;padding:4px 12px;border:1px solid #C1FF72;color:#C1FF72;font-size:10px;letter-spacing:.12em;text-transform:uppercase;vertical-align:5px}
-        .hero-about{font-size:13px;line-height:1.7;color:#8A94A6;max-width:680px;margin-bottom:40px;animation:fadeup .6s .15s ease both}
-        .hero-stats{display:flex;gap:36px;animation:fadeup .6s .2s ease both}
-        .hstat{display:flex;flex-direction:column;gap:6px}
-        .hstat-v{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:30px;line-height:1}
-        .hstat-l{font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:#8A94A6}
-        .hero-caret{display:inline-block;width:14px;height:28px;background:#C1FF72;margin-left:8px;vertical-align:-6px;animation:blink 1s step-end infinite}
+  <g stroke="#15151A" stroke-width="1">
+    <line x1="0" y1="60" x2="880" y2="60"/>
+    <line x1="0" y1="320" x2="880" y2="320"/>
+    <line x1="0" y1="470" x2="880" y2="470"/>
+    <line x1="0" y1="620" x2="880" y2="620"/>
+    <line x1="0" y1="960" x2="880" y2="960"/>
+    <line x1="0" y1="1120" x2="880" y2="1120"/>
+    <line x1="40" y1="60" x2="40" y2="1120"/>
+  </g>
 
-        /* ── STACK ── */
-        .stack{height:380px;padding:96px 72px;border-bottom:1px solid #1E2540;position:relative}
-        .slabel{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#C1FF72;margin-bottom:24px}
-        .stitle{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:80px;line-height:.9;letter-spacing:-.04em;margin-bottom:48px}
-        .lrow{display:flex;align-items:center;gap:16px;margin-bottom:18px;animation:fadeup .5s ease both}
-        .lname{font-size:12px;color:#8A94A6;width:150px;letter-spacing:.04em}
-        .ltrack{flex:1;height:5px;background:#1E2540;border-radius:3px;overflow:hidden;max-width:680px}
-        .lfill{height:100%;background:linear-gradient(90deg,#3D5EFF,#C1FF72);background-size:200% 100%;border-radius:3px;animation:grad 4s ease infinite,fadeup .6s ease both;transform-origin:left}
-        .lpct{font-size:12px;color:#3D5EFF;width:44px;text-align:right}
-        .lcount{font-size:11px;color:#8A94A6;width:90px;text-align:right}
+  <g stroke="#00D4FF" stroke-width="1" fill="none">
+    <path d="M 20 20 L 20 35 M 20 20 L 35 20"/>
+    <path d="M 860 20 L 860 35 M 860 20 L 845 20"/>
+    <path d="M 20 1500 L 20 1485 M 20 1500 L 35 1500"/>
+    <path d="M 860 1500 L 860 1485 M 860 1500 L 845 1500"/>
+  </g>
 
-        /* ── ARCHIVE ── */
-        .archive{padding:96px 72px 64px;border-bottom:1px solid #1E2540;min-height:760px}
-        .aheader{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:56px}
-        .acards{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-        .repo{border:1px solid #1E2540;background:#0D1016;padding:28px;display:flex;flex-direction:column;gap:16px;text-decoration:none;animation:fadeup .6s ease both;position:relative;overflow:hidden}
-        .repo::before{content:'';position:absolute;inset:0;background-image:linear-gradient(#1E254040 1px,transparent 1px),linear-gradient(90deg,#1E254040 1px,transparent 1px);background-size:24px 24px;opacity:.25;pointer-events:none}
-        .repo-top{display:flex;justify-content:space-between;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#8A94A6}
-        .repo-name{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:30px;letter-spacing:-.03em;color:#F4F7FA;text-decoration:none;word-break:break-word}
-        .repo-desc{font-size:11px;line-height:1.6;color:#8A94A6;flex:1}
-        .repo-stats{display:flex;gap:20px;font-size:11px;color:#8A94A6}
-        .rs-star{color:#C1FF72}
-        .rs-fork{color:#3D5EFF}
+  <circle cx="20" cy="20" r="2.5" fill="#00D4FF">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
 
-        /* ── FOOTER ── */
-        .foot{padding:80px 72px;display:flex;align-items:center;justify-content:space-between;gap:24px}
-        .foot-brand{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;letter-spacing:-.02em}
-        .foot-brand .lime{color:#C1FF72}
-        .foot-meta{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#1E2540}
-        .foot-meta .accent{color:#3D5EFF}
+  <!-- hero -->
 
-        .badge-area{display:flex;gap:10px;flex-wrap:wrap;margin-top:36px}
-        .fbadge{padding:6px 14px;border:1px solid #1E2540;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#8A94A6;border-radius:2px}
-        .fbadge.hi{border-color:#C1FF72;color:#C1FF72}
-      </style>
+<text x="40" y="40" font-family="JetBrains Mono, monospace" font-size="10" fill="#00D4FF" letter-spacing="3">DEVELOPER PROFILE // 2026-08-07</text><text x="40" y="120" font-family="JetBrains Mono, monospace" font-size="42" fill="#fff" font-weight="700" letter-spacing="-1">Mechtech001</text><text x="40" y="150" font-family="Inter, sans-serif" font-size="14" fill="#4de1ff" letter-spacing="0.5">Aditya Sharma</text><text x="40" y="180" font-family="Inter, sans-serif" font-size="13" fill="#9CA3AF">Backend-leaning full-stack developer. B.Tech CSE @ IIIT Ranchi.</text>
 
-      <div class="page">
+  <g font-family="JetBrains Mono, monospace">
+    <text x="40" y="230" font-size="9" fill="#00D4FF" letter-spacing="2">FOLLOWERS</text>
+    <text x="40" y="250" font-size="20" fill="#fff" font-weight="700" id="followers">2</text>
 
-        <!-- HERO -->
-        <div class="hero">
-          <div class="hero-scan"></div>
-          <img src="https://avatars.githubusercontent.com/u/179168318?v=4" class="hero-bg" alt=""/>
-          <div class="hero-ghost">ADITYA SHARMA</div>
-          <p class="hero-tag">◈ SYNAPTIC CODE / IDENTITY RESOLVED</p>
-          <h1 class="hero-name"><span class="at">@</span>Mechtech001<span class="hero-caret"></span></h1>
-          <p class="hero-tagline">Building in public — JavaScript · TypeScript. Shipping open-source, one commit at a time.<span class="hero-rolepill">Student Developer · Open Source</span></p>
-          <p class="hero-about">Pushing code, learning in the open, and contributing to projects that matter. Current focus: JavaScript · TypeScript. All metrics below update live from GitHub.</p>
-          <div class="hero-stats">
-            <div class="hstat"><span class="hstat-v">9</span><span class="hstat-l">Repositories</span></div>
-            <div class="hstat"><span class="hstat-v">2</span><span class="hstat-l">Followers</span></div>
-            <div class="hstat"><span class="hstat-v">8</span><span class="hstat-l">Following</span></div>
-            <div class="hstat"><span class="hstat-v">0</span><span class="hstat-l">Total Stars</span></div>
-          </div>
-        </div>
+<text x="220" y="230" font-size="9" fill="#00D4FF" letter-spacing="2">REPOSITORIES</text>
+<text x="220" y="250" font-size="20" fill="#fff" font-weight="700" id="repos">9</text>
 
-        <!-- STACK -->
-        <div class="stack">
-          <p class="slabel">02 / Language topology</p>
-          <h2 class="stitle">STACK.</h2>
-          
-      <div class="lrow">
-        <span class="lname">JavaScript</span>
-        <div class="ltrack"><div class="lfill" style="width:88%;animation-delay:0s"></div></div>
-        <span class="lpct">88%</span>
-        <span class="lcount">7</span>
-      </div>
-      <div class="lrow">
-        <span class="lname">TypeScript</span>
-        <div class="ltrack"><div class="lfill" style="width:13%;animation-delay:0.08s"></div></div>
-        <span class="lpct">13%</span>
-        <span class="lcount">1</span>
-      </div>
-        </div>
+<text x="420" y="230" font-size="9" fill="#00D4FF" letter-spacing="2">YEARS ACTIVE</text>
+<text x="420" y="250" font-size="20" fill="#fff" font-weight="700">2</text>
 
-        <!-- ARCHIVE -->
-        <div class="archive">
-          <div class="aheader">
-            <div>
-              <p class="slabel">03 / Repository archive</p>
-              <h2 class="stitle">PROOF OF<br/>WORK.</h2>
-            </div>
-          </div>
-          <div class="acards">
-            
-      <div class="repo" style="animation-delay:0.1s">
-        <div class="repo-top">
-          <span class="repo-lang">JavaScript</span>
-          <span class="repo-year">2026</span>
-        </div>
-        <a href="https://github.com/Mechtech001/Car_Vista" class="repo-name">Car_Vista</a>
-        <p class="repo-desc">Open-source project documented through its code and commit history.</p>
-        <div class="repo-stats">
-          <span class="rs-star">★ 0</span>
-          <span class="rs-fork">⑂ 0</span>
-        </div>
-      </div>
-      <div class="repo" style="animation-delay:0.2s">
-        <div class="repo-top">
-          <span class="repo-lang">JavaScript</span>
-          <span class="repo-year">2026</span>
-        </div>
-        <a href="https://github.com/Mechtech001/DevTinder" class="repo-name">DevTinder</a>
-        <p class="repo-desc">Open-source project documented through its code and commit history.</p>
-        <div class="repo-stats">
-          <span class="rs-star">★ 0</span>
-          <span class="rs-fork">⑂ 0</span>
-        </div>
-      </div>
-      <div class="repo" style="animation-delay:0.30000000000000004s">
-        <div class="repo-top">
-          <span class="repo-lang">Unclassified</span>
-          <span class="repo-year">2026</span>
-        </div>
-        <a href="https://github.com/Mechtech001/Mechtech001" class="repo-name">Mechtech001</a>
-        <p class="repo-desc">Open-source project documented through its code and commit history.</p>
-        <div class="repo-stats">
-          <span class="rs-star">★ 0</span>
-          <span class="rs-fork">⑂ 0</span>
-        </div>
-      </div>
-      <div class="repo" style="animation-delay:0.4s">
-        <div class="repo-top">
-          <span class="repo-lang">JavaScript</span>
-          <span class="repo-year">2026</span>
-        </div>
-        <a href="https://github.com/Mechtech001/Ledger" class="repo-name">Ledger</a>
-        <p class="repo-desc">Financial transaction system and secure backend processing transactions across 8 database models with JWT auth and RBAC </p>
-        <div class="repo-stats">
-          <span class="rs-star">★ 0</span>
-          <span class="rs-fork">⑂ 0</span>
-        </div>
-      </div>
-          </div>
-        </div>
+<text x="620" y="230" font-size="9" fill="#00D4FF" letter-spacing="2">FOLLOWING</text>
+<text x="620" y="250" font-size="20" fill="#fff" font-weight="700" id="following">8</text>
 
-        <!-- FOOTER -->
-        <div class="foot">
-          <div>
-            <p class="foot-brand">SYNAPTIC <span class="lime">CODE</span> / MECHTECH001</p>
-            <div class="badge-area">
-              <span class="fbadge hi">open source</span>
-              <span class="fbadge">student dev</span>
-              <span class="fbadge">always shipping</span>
-            </div>
-          </div>
-          <p class="foot-meta"><span class="accent">⚡</span> synapticcode.dev</p>
-        </div>
+  </g>
 
-      </div>
-    </div>
-  </foreignObject>
-</svg>
+  <line y1="0" y2="280" stroke="#00D4FF" stroke-width="1" opacity="0.25">
+    <animate attributeName="x1" values="0;880;0" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0;880;0" dur="14s" repeatCount="indefinite"/>
+  </line>
+
+  <g font-family="JetBrains Mono, monospace" font-size="9" fill="#4B5563" text-anchor="end">
+    <text x="840" y="40" letter-spacing="2">// ARTIFACT_01</text>
+    <text x="840" y="180" letter-spacing="2">ID: 17916831</text>
+  </g>
+
+  <!-- about -->
+
+<text x="40" y="360" font-family="JetBrains Mono, monospace" font-size="10" fill="#00D4FF" letter-spacing="3">// ABOUT</text><text x="40" y="392" font-family="Inter, sans-serif" font-size="14" fill="#fff">I build backend systems and try to understand what's happening under the hood.</text><text x="40" y="418" font-family="Inter, sans-serif" font-size="13" fill="#9CA3AF">Focusing on auth flows, message queues, database schema design, and Docker.</text>
+
+  <!-- current focus -->
+
+<text x="40" y="520" font-family="JetBrains Mono, monospace" font-size="10" fill="#00D4FF" letter-spacing="3">// CURRENT FOCUS</text>
+
+  <g font-family="JetBrains Mono, monospace">
+    <text x="40" y="552" font-size="11" fill="#fff">Building</text>
+    <text x="150" y="552" font-size="11" fill="#4de1ff">idempotent APIs and event-driven backends</text>
+
+<text x="40" y="580" font-size="11" fill="#fff">Improving</text>
+<text x="150" y="580" font-size="11" fill="#4de1ff">database schema design and Docker networking</text>
+
+<text x="40" y="608" font-size="11" fill="#fff">Learning</text>
+<text x="150" y="608" font-size="11" fill="#4de1ff">Go, Kubernetes, and system architecture</text>
+
+  </g>
+
+  <!-- language distribution -->
+
+<text x="40" y="660" font-family="JetBrains Mono, monospace" font-size="10" fill="#00D4FF" letter-spacing="3">// LANGUAGE DISTRIBUTION</text><text x="840" y="660" font-family="JetBrains Mono, monospace" font-size="10" fill="#4B5563" letter-spacing="2" text-anchor="end">N=2</text><rect x="40" y="680" width="699.5481611583734" height="14" fill="#f1e05a"/><rect x="739.5481611583734" y="680" width="100.45183884162657" height="14" fill="#3178c6"/>
+
+  <g>
+    <rect x="40" y="722" width="8" height="8" fill="#f1e05a"/>
+    <text x="54" y="729" font-family="JetBrains Mono, monospace" font-size="11" fill="#fff">JavaScript</text>
+    <text x="54" y="742" font-family="JetBrains Mono, monospace" font-size="10" fill="#4de1ff">87.4%</text>
+  </g>
+  <g>
+    <rect x="320" y="722" width="8" height="8" fill="#3178c6"/>
+    <text x="334" y="729" font-family="JetBrains Mono, monospace" font-size="11" fill="#fff">TypeScript</text>
+    <text x="334" y="742" font-family="JetBrains Mono, monospace" font-size="10" fill="#4de1ff">12.6%</text>
+  </g>
+
+  <!-- featured work -->
+
+<text x="40" y="790" font-family="JetBrains Mono, monospace" font-size="10" fill="#00D4FF" letter-spacing="3">// FEATURED WORK · 3 PROJECTS</text><text x="840" y="790" font-family="JetBrains Mono, monospace" font-size="10" fill="#4B5563" letter-spacing="2" text-anchor="end">RANKED BY RELEVANCE</text>
+
+  <g>
+    <line x1="40" y1="810" x2="840" y2="810" stroke="#1A1A1A" stroke-width="1"/>
+    <text x="40" y="840" font-family="JetBrains Mono, monospace" font-size="11" fill="#4de1ff" letter-spacing="1">01</text>
+    <a href="https://github.com/Mechtech001/Ledger" target="_blank" style="text-decoration: none;">
+      <text x="80" y="840" font-family="JetBrains Mono, monospace" font-size="15" fill="#fff" font-weight="700">Ledger</text>
+    </a>
+    <text x="80" y="860" font-family="Inter, sans-serif" font-size="11" fill="#9CA3AF">Financial backend with JWT auth, RBAC, and idempotent API design.</text>
+    <text x="80" y="880" font-family="JetBrains Mono, monospace" font-size="10" fill="#4B5563" letter-spacing="0.5"><tspan dx="10" fill="#00D4FF">★ PROJECT</tspan></text>
+    <g font-family="JetBrains Mono, monospace" text-anchor="end">
+      <circle cx="780" cy="835" r="3" fill="#f1e05a"/>
+      <text x="770" y="839" font-size="10" fill="#9CA3AF" letter-spacing="0.5">Node.js</text>
+      <text x="840" y="860" font-size="11" fill="#fff">★ —  ⑂ —</text>
+      <text x="840" y="878" font-size="9" fill="#4de1ff" letter-spacing="1">ACTIVE NOW</text>
+    </g>
+  </g>
+
+  <g>
+    <line x1="40" y1="900" x2="840" y2="900" stroke="#1A1A1A" stroke-width="1"/>
+    <text x="40" y="930" font-family="JetBrains Mono, monospace" font-size="11" fill="#4de1ff" letter-spacing="1">02</text>
+    <a href="https://github.com/Mechtech001/DevTinder" target="_blank" style="text-decoration: none;">
+      <text x="80" y="930" font-family="JetBrains Mono, monospace" font-size="15" fill="#fff" font-weight="700">DevTinder</text>
+    </a>
+    <text x="80" y="950" font-family="Inter, sans-serif" font-size="11" fill="#9CA3AF">Networking platform with 15+ endpoints, real-time chat, and Razorpay.</text>
+    <text x="80" y="970" font-family="JetBrains Mono, monospace" font-size="10" fill="#4B5563" letter-spacing="0.5"><tspan dx="10" fill="#00D4FF">★ PROJECT</tspan></text>
+    <g font-family="JetBrains Mono, monospace" text-anchor="end">
+      <circle cx="780" cy="925" r="3" fill="#f1e05a"/>
+      <text x="770" y="929" font-size="10" fill="#9CA3AF" letter-spacing="0.5">Socket.io</text>
+      <text x="840" y="950" font-size="11" fill="#fff">★ —  ⑂ —</text>
+      <text x="840" y="968" font-size="9" fill="#4de1ff" letter-spacing="1">AVAILABLE</text>
+    </g>
+  </g>
+
+  <g>
+    <line x1="40" y1="990" x2="840" y2="990" stroke="#1A1A1A" stroke-width="1"/>
+    <text x="40" y="1020" font-family="JetBrains Mono, monospace" font-size="11" fill="#4de1ff" letter-spacing="1">03</text>
+    <a href="https://github.com/Mechtech001/distributed-ticket-service" target="_blank" style="text-decoration: none;">
+      <text x="80" y="1020" font-family="JetBrains Mono, monospace" font-size="15" fill="#fff" font-weight="700">distributed-ticket-service</text>
+    </a>
+    <text x="80" y="1040" font-family="Inter, sans-serif" font-size="11" fill="#9CA3AF">Event-driven backend using Kafka, Docker, and WebSockets.</text>
+    <text x="80" y="1060" font-family="JetBrains Mono, monospace" font-size="10" fill="#4B5563" letter-spacing="0.5"><tspan dx="10" fill="#00D4FF">★ PROJECT</tspan></text>
+    <g font-family="JetBrains Mono, monospace" text-anchor="end">
+      <circle cx="780" cy="1015" r="3" fill="#f1e05a"/>
+      <text x="770" y="1019" font-size="10" fill="#9CA3AF" letter-spacing="0.5">Kafka</text>
+      <text x="840" y="1040" font-size="11" fill="#fff">★ —  ⑂ —</text>
+      <text x="840" y="1058" font-size="9" fill="#4de1ff" letter-spacing="1">AVAILABLE</text>
+    </g>
+  </g>
+
+  <line x1="40" y1="1100" x2="840" y2="1100" stroke="#1A1A1A" stroke-width="1"/>
+
+  <!-- toolkit -->
+
+<text x="40" y="1160" font-family="JetBrains Mono, monospace" font-size="10" fill="#00D4FF" letter-spacing="3">// TOOLKIT</text>
+
+  <g font-family="JetBrains Mono, monospace" font-size="11" fill="#fff">
+    <text x="40" y="1190" fill="#4de1ff">Backend</text>
+    <text x="120" y="1190">Node.js</text>
+    <text x="200" y="1190">Express</text>
+    <text x="285" y="1190">Socket.IO</text>
+    <text x="390" y="1190">Kafka</text>
+    <text x="440" y="1190">NGINX</text>
+
+<text x="40" y="1216" fill="#4de1ff">Databases</text>
+<text x="120" y="1216">MongoDB</text>
+<text x="210" y="1216">PostgreSQL</text>
+<text x="325" y="1216">MySQL</text>
+<text x="400" y="1216">Redis</text>
+
+<text x="470" y="1216" fill="#4de1ff">Frontend</text>
+<text x="560" y="1216">React</text>
+<text x="620" y="1216">Tailwind</text>
+<text x="710" y="1216">HTML/CSS</text>
+
+<text x="40" y="1242" fill="#4de1ff">Tools</text>
+<text x="120" y="1242">Git</text>
+<text x="160" y="1242">Docker</text>
+<text x="235" y="1242">Kubernetes</text>
+<text x="335" y="1242">AWS</text>
+<text x="390" y="1242">Postman</text>
+<text x="480" y="1242">Go</text>
+
+  </g>
+
+  <!-- activity graph -->
+
+<text x="40" y="1280" font-family="JetBrains Mono, monospace" font-size="10" fill="#00D4FF" letter-spacing="3">// ACTIVITY TIMELINE · 12 MONTHS</text><text x="840" y="1280" font-family="JetBrains Mono, monospace" font-size="10" fill="#4de1ff" letter-spacing="2" text-anchor="end">ACTIVE 4/12 · 9 PUSHES</text><line x1="40" y1="1360" x2="826" y2="1360" stroke="#2A2A2A" stroke-width="1"/><rect x="40" y="1360" width="60" height="1" fill="#2A2A2A" opacity="0.3"/><text x="70" y="1374" font-family="JetBrains Mono, monospace" font-size="9" fill="#4B5563" text-anchor="middle" letter-spacing="1">SEP</text><rect x="106" y="1360" width="60" height="1" fill="#2A2A2A" opacity="0.3"/><text x="136" y="1374" font-family="JetBrains Mono, monospace" font-size="9" fill="#4B5563" text-anchor="middle" letter-spacing="1">OCT</text><rect x="172" y="1360" width="60" height="1" fill="#2A2A2A" opacity="0.3"/><text x="202" y="1374" font-family="JetBrains Mono, monospace" font-size="9" fill="#4B5563" text-anchor="middle" letter-spacing="1">NOV</text><rect x="238" y="1360" width="60" height="1" fill="#2A2A2A" opacity="0.3"/><text x="268" y="1374" font-family="JetBrains Mono, monospace" font-size="9" fill="#4B5563" text-anchor="middle" letter-spacing="1">DEC</text><rect x="304" y="1360" width="60" height="1" fill="#2A2A2A" opacity="0.3"/><text x="334" y="1374" font-family="JetBrains Mono, monospace" font-size="9" fill="#4B5563" text-anchor="middle" letter-spacing="1">JAN</text><rect x="370" y="1360" width="60" height="1" fill="#2A2A2A" opacity="0.3"/><text x="400" y="1374" font-family="JetBrains Mono, monospace" font-size="9" fill="#4B5563" text-anchor="middle" letter-spacing="1">FEB</text><rect x="436" y="1320" width="60" height="40" fill="#00D4FF" opacity="0.9"/><text x="466" y="1316" font-family="JetBrains Mono, monospace" font-size="9" fill="#fff" text-anchor="middle">2</text><text x="466" y="1374" font-family="JetBrains Mono, monospace" font-size="9" fill="#4B5563" text-anchor="middle" letter-spacing="1">MAR</text><rect x="502" y="1360" width="60" height="1" fill="#2A2A2A" opacity="0.3"/><text x="532" y="1374" font-family="JetBrains Mono, monospace" font-size="9" fill="#4B5563" text-anchor="middle" letter-spacing="1">APR</text><rect x="568" y="1300" width="60" height="60" fill="#00D4FF" opacity="0.9"/><text x="598" y="1296" font-family="JetBrains Mono, monospace" font-size="9" fill="#fff" text-anchor="middle">3</text><text x="598" y="1374" font-family="JetBrains Mono, monospace" font-size="9" fill="#4B5563" text-anchor="middle" letter-spacing="1">MAY</text><rect x="634" y="1360" width="60" height="1" fill="#2A2A2A" opacity="0.3"/><text x="664" y="1374" font-family="JetBrains Mono, monospace" font-size="9" fill="#4B5563" text-anchor="middle" letter-spacing="1">JUN</text><rect x="700" y="1300" width="60" height="60" fill="#00D4FF" opacity="0.9"/><text x="730" y="1296" font-family="JetBrains Mono, monospace" font-size="9" fill="#fff" text-anchor="middle">3</text><text x="730" y="1374" font-family="JetBrains Mono, monospace" font-size="9" fill="#4B5563" text-anchor="middle" letter-spacing="1">JUL</text><rect x="766" y="1340" width="60" height="20" fill="#00D4FF" opacity="0.9"/><text x="796" y="1336" font-family="JetBrains Mono, monospace" font-size="9" fill="#fff" text-anchor="middle">1</text><text x="796" y="1374" font-family="JetBrains Mono, monospace" font-size="9" fill="#4B5563" text-anchor="middle" letter-spacing="1">AUG</text>
+
+  <!-- connect -->
+
+<text x="40" y="1428" font-family="JetBrains Mono, monospace" font-size="10" fill="#00D4FF" letter-spacing="3">// CONNECT</text><g font-family="Inter, sans-serif" font-size="13" fill="#9CA3AF"><a href="mailto:aditya16may@gmail.com" style="text-decoration: none;"><text x="40" y="1455" fill="#9CA3AF">aditya16may@gmail.com</text></a><a href="https://linkedin.com/in/aditya-sharma-516491321" target="_blank" style="text-decoration: none;"><text x="40" y="1478" fill="#9CA3AF">linkedin.com/in/aditya-sharma</text></a><a href="https://github.com/Mechtech001" target="_blank" style="text-decoration: none;"><text x="40" y="1501" fill="#9CA3AF">github.com/Mechtech001</text></a></g>
+
+<text x="840" y="1501" font-family="JetBrains Mono, monospace" font-size="9" fill="#4B5563" text-anchor="end" letter-spacing="2">MINIMAL / CLEAN / CONSISTENT</text></svg>
