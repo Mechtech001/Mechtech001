@@ -1,7 +1,7 @@
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=wave&color=0:020409,50:0d1627,100:020409&height=160&section=header&animation=fadeIn" width="100%"/>
-<img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=700&size=56&duration=1&pause=100000&color=6FB8E0&center=true&vCenter=true&repeat=false&width=500&height=90&lines=Aditya+Sharma" alt="Aditya Sharma"/>
+<img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=700&size=56&duration=1&pause=100000&color=6FB8E0&center=true&vCenter=true&repeat=false&width=500&height=70&lines=Aditya+Sharma" alt="Aditya Sharma"/>
 <img src="https://readme-typing-svg.demolab.com?font=Quicksand&weight=500&size=14&duration=1&pause=100000&color=5C6B80&center=true&vCenter=true&repeat=false&width=650&height=26&lines=Full+stack+developer" alt="subtitle"/>
 
 <br/>
