@@ -1,0 +1,46 @@
+# ──────────────────────────────────────────────────────────────
+#  Profile City — rebuilds the 3D contribution skyline daily
+#
+#  Place this file at:  .github/workflows/profile-city.yml
+#  (inside your Mechtech001/Mechtech001 profile repo)
+#
+#  Runs every day at 18:40 UTC == 00:10 IST (just past midnight,
+#  so the city literally grows while you're building past midnight).
+#  You can also trigger it manually: Actions → Profile City → Run workflow.
+# ──────────────────────────────────────────────────────────────
+
+name: Profile City
+
+on:
+  schedule:
+    - cron: "40 18 * * *" # 00:10 IST daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: rebuild-the-skyline
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Generate 3D contribution city
+        uses: yoshi389111/github-profile-3d-contrib@0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit the new skyline
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib
+          if git diff --cached --quiet; then
+            echo "Skyline unchanged — nothing to commit"
+          else
+            git commit -m "city: rebuild the skyline"
+            git push
+          fi
