@@ -14,74 +14,118 @@
 
 <br/>
 
-<!-- ==================== WHO I AM ==================== -->
+<!-- ==================== 01 · WHO I AM ==================== -->
 
 <img src="./assets/sec_who.png" width="100%" alt="// WHO I AM"/>
 
 <br/>
 
-<samp>Hey, I'm Aditya — a Ranchi-based full stack engineer who builds the parts of the stack that have to survive retries, load spikes and 3 a.m. deploys. CSE '27 at IIIT Ranchi — shipping edtech by day, breaking and rebuilding my own systems by night.</samp>
+<samp><b>Hey — I'm Aditya.</b> Ranchi-based full stack engineer building the parts of the stack that have to survive retries, load spikes and 3 a.m. deploys.</samp>
 
-<samp>I like knowing <i>why</i> it works, not just that it works. Every line I ship, I can explain.</samp>
+<samp>CSE '27 at IIIT Ranchi — shipping edtech by day, breaking and rebuilding my own systems by night. I like knowing <i>why</i> it works, not just that it works — every line I ship, I can explain.</samp>
 
 <br/>
 
-<sub><samp>status: building_edtech_by_day &nbsp;·&nbsp; base: IIIT Ranchi &nbsp;·&nbsp; class_of: '27 &nbsp;·&nbsp; mode: nocturnal</samp></sub>
+<img src="https://img.shields.io/badge/status-building%5Fedtech%5Fby%5Fday-161B22?style=flat-square&labelColor=060606" alt="status"/>
+&nbsp;<img src="https://img.shields.io/badge/base-IIIT%20Ranchi-161B22?style=flat-square&labelColor=060606" alt="base"/>
+&nbsp;<img src="https://img.shields.io/badge/class%5Fof-%2727-161B22?style=flat-square&labelColor=060606" alt="class of"/>
+&nbsp;<img src="https://img.shields.io/badge/mode-nocturnal-161B22?style=flat-square&labelColor=060606" alt="mode"/>
 
 <br/><br/>
 
-<!-- ==================== WHAT I'M BUILDING ==================== -->
+<!-- ==================== 02 · WHAT I'M BUILDING ==================== -->
 
 <img src="./assets/sec_build.png" width="100%" alt="// WHAT I'M BUILDING"/>
 
 <br/>
 
-<samp><b>REC_01 · LEDGER</b> — financial backend</samp><br/>
-<i>Moves money over HTTP without ever moving it twice — idempotency on every write path, three roles of RBAC, and k6 hammering it with 200 concurrent users for sport.</i>
+<table>
+  <tr>
+    <td>
+      <img src="https://img.shields.io/badge/REC%5F01%20%C2%B7%20LEDGER-E5484D?style=flat-square" alt="REC_01"/>
+      &nbsp;<samp>financial backend</samp>
+      <br/><br/>
+      <i><samp>Moves money over HTTP without ever moving it twice — idempotency on every write path, three roles of RBAC, and k6 hammering it with 200 concurrent users for sport.</samp></i>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/node-161B22?style=flat-square" alt="node"/>
+&nbsp;<img src="https://img.shields.io/badge/express-161B22?style=flat-square" alt="express"/>
+&nbsp;<img src="https://img.shields.io/badge/mongo-161B22?style=flat-square" alt="mongo"/>
+&nbsp;<img src="https://img.shields.io/badge/jwt-161B22?style=flat-square" alt="jwt"/>
+&nbsp;<img src="https://img.shields.io/badge/k6-161B22?style=flat-square" alt="k6"/>
+&nbsp;<img src="https://img.shields.io/badge/status-in%5Fproduction-E5484D?style=flat-square&labelColor=060606" alt="status"/>
+      <br/>
+      <a href="https://github.com/Mechtech001/Ledger"><img src="https://img.shields.io/badge/%E2%86%92%20OPEN%20RECORD-E5484D?style=for-the-badge&labelColor=060606" alt="open the Ledger record"/></a>
+    </td>
+  </tr>
+</table>
 
-<sub><samp>stack: node · express · mongo · jwt · k6 &nbsp;|&nbsp; status: in_production</samp></sub>
+<br/>
 
-<a href="https://github.com/Mechtech001/Ledger"><img src="https://img.shields.io/badge/%E2%86%92_OPEN_RECORD-E5484D?style=flat-square" alt="Ledger repo"/></a>
+<table>
+  <tr>
+    <td>
+      <img src="https://img.shields.io/badge/REC%5F02%20%C2%B7%20DEVTINDER-E5484D?style=flat-square" alt="REC_02"/>
+      &nbsp;<samp>developer networking platform</samp>
+      <br/><br/>
+      <i><samp>Match-and-chat for developers where the chat actually feels live — WebSockets end to end, the premium loop handled by Razorpay, and a React layer that re-renders only when it should.</samp></i>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/react-161B22?style=flat-square" alt="react"/>
+&nbsp;<img src="https://img.shields.io/badge/node-161B22?style=flat-square" alt="node"/>
+&nbsp;<img src="https://img.shields.io/badge/socket.io-161B22?style=flat-square" alt="socket.io"/>
+&nbsp;<img src="https://img.shields.io/badge/razorpay-161B22?style=flat-square" alt="razorpay"/>
+&nbsp;<img src="https://img.shields.io/badge/aws%20ses-161B22?style=flat-square" alt="aws ses"/>
+&nbsp;<img src="https://img.shields.io/badge/status-in%5Fproduction-E5484D?style=flat-square&labelColor=060606" alt="status"/>
+      <br/>
+      <a href="https://github.com/Mechtech001/DevTinder"><img src="https://img.shields.io/badge/%E2%86%92%20OPEN%20RECORD-E5484D?style=for-the-badge&labelColor=060606" alt="open the DevTinder record"/></a>
+    </td>
+  </tr>
+</table>
 
-<br/><br/>
+<br/>
 
-<samp><b>REC_02 · DEVTINDER</b> — developer networking platform</samp><br/>
-<i>Match-and-chat for developers where the chat actually feels live — WebSockets end to end, the premium loop handled by Razorpay, and a React layer that re-renders only when it should.</i>
+<table>
+  <tr>
+    <td>
+      <img src="https://img.shields.io/badge/REC%5F03%20%C2%B7%20DISTRIBUTED%2DTICKET%2DSERVICE-E5484D?style=flat-square" alt="REC_03"/>
+      &nbsp;<samp>event-driven backend</samp>
+      <br/><br/>
+      <i><samp>React throws the ticket, Kafka carries it, workers do the work, the browser finds out instantly. 10k+ workflows a day — all delivered exactly once.</samp></i>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/react-161B22?style=flat-square" alt="react"/>
+&nbsp;<img src="https://img.shields.io/badge/kafka-161B22?style=flat-square" alt="kafka"/>
+&nbsp;<img src="https://img.shields.io/badge/docker-161B22?style=flat-square" alt="docker"/>
+&nbsp;<img src="https://img.shields.io/badge/nginx-161B22?style=flat-square" alt="nginx"/>
+&nbsp;<img src="https://img.shields.io/badge/socket.io-161B22?style=flat-square" alt="socket.io"/>
+&nbsp;<img src="https://img.shields.io/badge/status-in%5Fproduction-E5484D?style=flat-square&labelColor=060606" alt="status"/>
+      <br/>
+      <a href="https://github.com/Mechtech001/distributed-ticket-service"><img src="https://img.shields.io/badge/%E2%86%92%20OPEN%20RECORD-E5484D?style=for-the-badge&labelColor=060606" alt="open the ticket service record"/></a>
+    </td>
+  </tr>
+</table>
 
-<sub><samp>stack: react · node · socket.io · razorpay · ses &nbsp;|&nbsp; status: in_production</samp></sub>
+<br/>
 
-<a href="https://github.com/Mechtech001/DevTinder"><img src="https://img.shields.io/badge/%E2%86%92_OPEN_RECORD-E5484D?style=flat-square" alt="DevTinder repo"/></a>
-
-<br/><br/>
-
-<samp><b>REC_03 · DISTRIBUTED-TICKET-SERVICE</b> — event-driven backend</samp><br/>
-<i>React throws the ticket, Kafka carries it, workers do the work, the browser finds out instantly. 10k+ workflows a day — all delivered exactly once.</i>
-
-<sub><samp>stack: react · kafka · docker · nginx · socket.io &nbsp;|&nbsp; status: in_production</samp></sub>
-
-<a href="https://github.com/Mechtech001/distributed-ticket-service"><img src="https://img.shields.io/badge/%E2%86%92_OPEN_RECORD-E5484D?style=flat-square" alt="Distributed ticket service repo"/></a>
-
-<br/><br/>
-
-<!-- ==================== VISION ==================== -->
+<!-- ==================== 03 · VISION ==================== -->
 
 <img src="./assets/sec_vision.png" width="100%" alt="// VISION"/>
 
 <br/>
 
-<samp>My goal is to build systems people can trust at 3 a.m. — money that moves exactly once, chats that feel live, tickets that never double-book. The boring kind of reliable.</samp>
+<samp><b>My goal:</b> systems people can trust at 3 a.m. — money that moves exactly once, chats that feel live, tickets that never double-book. The boring kind of reliable.</samp>
 
-<samp>Reliability first, cleverness second — the skyline is only as good as the ground it stands on.</samp>
+<samp><b>Reliability first, cleverness second.</b> The skyline is only as good as the ground it stands on.</samp>
 
 <br/><br/>
 
-<!-- ==================== BEYOND CODE ==================== -->
+<!-- ==================== 04 · BEYOND CODE ==================== -->
 
 <img src="./assets/sec_beyond.png" width="100%" alt="// BEYOND CODE"/>
 
 <br/>
 
-<samp>UI/UX lead at GDG IIIT Ranchi — running campus-wide creative events. Teardowns over tutorials, logs over vibes. Usually awake past midnight — that's when the city grows.</samp>
+<samp><b>UI/UX lead @ GDG IIIT Ranchi</b> — running campus-wide creative events. Teardowns over tutorials, logs over vibes.</samp>
+
+<samp>Usually awake past midnight — that's when the city grows.</samp>
 
 <br/>
 
@@ -108,7 +152,7 @@
 
 <br/>
 
-<!-- ==================== CONTRIBUTION CITY ==================== -->
+<!-- ==================== 05 · CONTRIBUTION CITY ==================== -->
 
 <img src="./assets/sec_city.png" width="100%" alt="// CONTRIBUTION CITY"/>
 
@@ -128,7 +172,7 @@
 
 <br/>
 
-<!-- ==================== SKILL SET ==================== -->
+<!-- ==================== 06 · SKILL SET ==================== -->
 
 <img src="./assets/sec_stack.png" width="100%" alt="// SKILL SET"/>
 
