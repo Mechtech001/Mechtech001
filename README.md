@@ -99,7 +99,7 @@ IIIT Ranchi ’27 (CGPA 8.73/10) · Full-Stack Intern, Orion Eduverse · Rewari,
 
 ## Elsewhere
 
-[Portfolio](https://aditya16.pages.dev) · [LinkedIn](https://www.linkedin.com/in/aditya-sharma-516491321) · [Résumé]([<<paste-drive-link>>](https://drive.google.com/file/d/1s65e10lJZQfmb9P4epDdzfs74EgheCRT/view?usp=sharing)) · [Email](mailto:aditya16may@gmail.com)
+[Portfolio](https://aditya16.pages.dev) · [LinkedIn](https://www.linkedin.com/in/aditya-sharma-516491321) · [Résumé](https://drive.google.com/file/d/1s65e10lJZQfmb9P4epDdzfs74EgheCRT/view?usp=sharing) · [Email](mailto:aditya16may@gmail.com)
 
 ---
 
