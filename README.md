@@ -1,7 +1,5 @@
 <p align="center">
 
-# Aditya Sharma
-
 **Full-stack engineer — backend systems & design-led interfaces**
 
 IIIT Ranchi ’27 (CGPA 8.73/10) · Full-Stack Intern, Orion Eduverse · Rewari, Haryana · Open to opportunities
@@ -104,4 +102,5 @@ IIIT Ranchi ’27 (CGPA 8.73/10) · Full-Stack Intern, Orion Eduverse · Rewari,
 ---
 
 *Off the clock: audiophile, lifter, long-form YouTube scholar.*
+
 *Designed and built from scratch — no templates.*
