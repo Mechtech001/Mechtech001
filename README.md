@@ -12,7 +12,7 @@ IIIT Ranchi ’27 (CGPA 8.73/10) · Open to opportunities
 
 *Learning systems, built to production standards.*
 
-**Ledger** — a financial ledger that can't double-spend itself: idempotent writes, double-entry bookkeeping, JWT auth, RBAC across three roles. k6: 200 concurrent users · 32 req/s · 99.8% success. **[repo →](https://github.com/Mechtech001/Ledger)**
+**Ledger** — a financial ledger that can't double-spend itself: idempotent writes, double-entry bookkeeping, JWT auth, RBAC across three roles. k6: 50 sustained VUs · 19.1 req/s · 96.4% success · 302ms median — free-tier ceiling mapped. **[repo →](https://github.com/Mechtech001/Ledger)**
 
 **distributed-ticket-service** — ticket buying as an event loop: browser → NGINX → gateway → Kafka → worker → MongoDB, results pushed back over WebSockets. Docker Compose + Kubernetes manifests included. **[repo →](https://github.com/Mechtech001/distributed-ticket-service)**
 
