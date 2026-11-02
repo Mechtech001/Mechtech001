@@ -2,7 +2,7 @@
 
 **Full-stack engineer — backend systems & design-led interfaces**
 
-IIIT Ranchi ’27 (CGPA 8.73/10) · Full-Stack Intern, Orion Eduverse · Rewari, Haryana · Open to opportunities
+IIIT Ranchi ’27 (CGPA 8.73/10) · Rewari, Haryana · Open to opportunities
 
 </p>
 
