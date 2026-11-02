@@ -1,8 +1,8 @@
 <p align="center">
 
-**Full-stack engineer — backend systems & design-led interfaces**
+**Full-stack engineer**
 
-IIIT Ranchi ’27 (CGPA 8.73/10) · Rewari, Haryana · Open to opportunities
+IIIT Ranchi ’27 (CGPA 8.73/10) · Open to opportunities
 
 </p>
 
