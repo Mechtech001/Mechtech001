@@ -1,34 +1,107 @@
-<div>
+<p align="center">
 
-<picture><source media="(prefers-color-scheme: light)" srcset="./assets/light/banner.png"><img align="left" src="./assets/banner.png" width="100%" alt="ADITYA SHARMA — FULL STACK DEVELOPER / BACKEND SYSTEMS"/></picture>
-<picture><source media="(prefers-color-scheme: light)" srcset="./assets/light/glitch_strip.png"><img align="left" src="./assets/glitch_strip.png" width="100%" alt="SYSTEM << ONLINE"/></picture>
+# Aditya Sharma
 
-<picture><source media="(prefers-color-scheme: light)" srcset="./assets/light/sec_who.png"><img align="left" src="./assets/sec_who.png" width="100%" alt="// WHO I AM"/></picture>
-<picture><source media="(prefers-color-scheme: light)" srcset="./assets/light/card_who.png"><img align="left" src="./assets/card_who.png" width="100%" alt="Hey — I'm Aditya. Ranchi-based full stack engineer building the parts of the stack that have to survive retries, load spikes and 3 a.m. deploys. CSE '27 at IIIT Ranchi — shipping edtech by day, breaking and rebuilding my own systems by night."/></picture>
+**Full-stack engineer — backend systems & design-led interfaces**
 
-<picture><source media="(prefers-color-scheme: light)" srcset="./assets/light/sec_build.png"><img align="left" src="./assets/sec_build.png" width="100%" alt="// WHAT I'M BUILDING"/></picture>
-<a href="https://github.com/Mechtech001/Ledger"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/light/card_ledger.png"><img align="left" src="./assets/card_ledger.png" width="100%" alt="REC_01 · LEDGER — financial backend. Idempotent writes, RBAC, k6 load-tested. Open the Ledger repo."/></picture></a>
-<a href="https://github.com/Mechtech001/DevTinder"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/light/card_devtinder.png"><img align="left" src="./assets/card_devtinder.png" width="100%" alt="REC_02 · DEVTINDER — developer networking platform. WebSockets, Razorpay, React. Open the DevTinder repo."/></picture></a>
-<a href="https://github.com/Mechtech001/distributed-ticket-service"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/light/card_tickets.png"><img align="left" src="./assets/card_tickets.png" width="100%" alt="REC_03 · DISTRIBUTED-TICKET-SERVICE — event-driven backend. React, Kafka, Docker, Nginx. Open the repo."/></picture></a>
+IIIT Ranchi ’27 (CGPA 8.73/10) · Full-Stack Intern, Orion Eduverse · Rewari, Haryana · Open to opportunities
 
-<picture><source media="(prefers-color-scheme: light)" srcset="./assets/light/sec_vision.png"><img align="left" src="./assets/sec_vision.png" width="100%" alt="// VISION"/></picture>
-<picture><source media="(prefers-color-scheme: light)" srcset="./assets/light/card_vision.png"><img align="left" src="./assets/card_vision.png" width="100%" alt="My goal: systems people can trust at 3 a.m. Reliability first, cleverness second."/></picture>
+</p>
 
-<picture><source media="(prefers-color-scheme: light)" srcset="./assets/light/sec_beyond.png"><img align="left" src="./assets/sec_beyond.png" width="100%" alt="// BEYOND CODE"/></picture>
-<picture><source media="(prefers-color-scheme: light)" srcset="./assets/light/card_beyond.png"><img align="left" src="./assets/card_beyond.png" width="100%" alt="UI/UX lead @ GDG IIIT Ranchi. Teardowns over tutorials, logs over vibes."/></picture>
+> I build the parts of the stack that have to survive retries, load spikes, and 3 a.m. deploys. Reliability first, cleverness second.
 
-<a href="https://www.linkedin.com/in/aditya-sharma-516491321"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/light/btn_linkedin.png"><img src="./assets/btn_linkedin.png" width="32.5%" alt="LinkedIn"/></picture></a>&nbsp;<a href="https://github.com/Mechtech001"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/light/btn_github.png"><img src="./assets/btn_github.png" width="32.5%" alt="GitHub"/></picture></a>&nbsp;<a href="mailto:aditya16may@gmail.com"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/light/btn_mail.png"><img src="./assets/btn_mail.png" width="32.5%" alt="Gmail"/></picture></a>
+## Work
 
-<picture><source media="(prefers-color-scheme: light)" srcset="./assets/light/sec_city.png"><img align="left" src="./assets/sec_city.png" width="100%" alt="// CONTRIBUTION CITY"/></picture>
-<img align="left" src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D contribution city"/>
-<picture><source media="(prefers-color-scheme: light)" srcset="./assets/light/card_city_caption.png"><img align="left" src="./assets/card_city_caption.png" width="100%" alt="every block = one day, height = commits, rebuilt nightly at 00:10 IST"/></picture>
+*Learning systems, built to production standards.*
 
-<picture><source media="(prefers-color-scheme: light)" srcset="./assets/light/sec_stack.png"><img align="left" src="./assets/sec_stack.png" width="100%" alt="// SKILL SET"/></picture>
-<picture><source media="(prefers-color-scheme: light)" srcset="./assets/light/card_stack.png"><img align="left" src="./assets/card_stack.png" width="100%" alt="languages: JavaScript, TypeScript, Go. frontend: React, Tailwind, Figma. backend: Node.js, Express, Fastify, Socket.io. data: MongoDB, Postgres, Prisma, Kafka. infra: Docker, Kubernetes, Nginx, Linux, Git. tooling: k6, Postman, AWS SES."/></picture>
+**Ledger** — a financial ledger that can't double-spend itself: idempotent writes, double-entry bookkeeping, JWT auth, RBAC across three roles. k6: 200 concurrent users · 32 req/s · 99.8% success. **[repo →](https://github.com/Mechtech001/Ledger)**
 
-<picture><source media="(prefers-color-scheme: light)" srcset="./assets/light/footer.png"><img align="left" src="./assets/footer.png" width="100%" alt=""/></picture>
-<picture><source media="(prefers-color-scheme: light)" srcset="./assets/light/card_end.png"><img align="left" src="./assets/card_end.png" width="100%" alt="save the skyline: ctrl + s — end of transmission"/></picture>
+**distributed-ticket-service** — ticket buying as an event loop: browser → NGINX → gateway → Kafka → worker → MongoDB, results pushed back over WebSockets. Docker Compose + Kubernetes manifests included. **[repo →](https://github.com/Mechtech001/distributed-ticket-service)**
 
-<br clear="all"/>
+**DevTinder** — developer networking with real state: connection lifecycle, Socket.IO chat, Razorpay subscriptions, AWS SES. Fifteen endpoints, one flow. **[repo →](https://github.com/Mechtech001/DevTinder)**
 
+## Now
+
+- **Orion Eduverse** — Full-Stack Intern, building Omverg (edtech): React, Fastify, Prisma, PostgreSQL.
+- **Deepfake detection** — solo build, one month, from scratch. No API wrappers.
+- **GDG IIIT Ranchi** — UI/UX Lead. 38-component design system, 85+ developers trained.
+- **Kriti Club IIIT Ranchi** — Head. Five campus events, 320+ participants.
+
+## Stack
+
+<div align="center">
+  <table width="100%" cellspacing="0" cellpadding="8">
+    <!-- ROW 1 · Languages + Frontend -->
+    <tr>
+      <td align="center"><img src="https://skillicons.dev/icons?i=js" width="40px" alt="JavaScript"/><br>JavaScript</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=ts" width="40px" alt="TypeScript"/><br>TypeScript</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=go" width="40px" alt="Go"/><br>Go</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=python" width="40px" alt="Python"/><br>Python</td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40px" alt="SQL"/><br>SQL</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=html" width="40px" alt="HTML"/><br>HTML</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=css" width="40px" alt="CSS"/><br>CSS</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=react" width="40px" alt="React"/><br>React</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=tailwind" width="40px" alt="Tailwind CSS"/><br>Tailwind</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=figma" width="40px" alt="Figma"/><br>Figma</td>
+    </tr>
+    <!-- ROW 2 · Backend + Data -->
+    <tr>
+      <td align="center"><img src="https://skillicons.dev/icons?i=nodejs" width="40px" alt="Node.js"/><br>Node.js</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=express" width="40px" alt="Express"/><br>Express</td>
+      <td align="center">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/fastify/E6E6E6">
+          <img src="https://cdn.simpleicons.org/fastify/000000" width="40px" alt="Fastify"/>
+        </picture>
+        <br>Fastify
+      </td>
+      <td align="center">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/socketdotio/E6E6E6">
+          <img src="https://cdn.simpleicons.org/socketdotio/010101" width="40px" alt="Socket.IO"/>
+        </picture>
+        <br>Socket.IO
+      </td>
+      <td align="center">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/jsonwebtokens/E6E6E6">
+          <img src="https://cdn.simpleicons.org/jsonwebtokens/000000" width="40px" alt="JWT"/>
+        </picture>
+        <br>JWT
+      </td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=mongodb" width="40px" alt="MongoDB"/><br>MongoDB</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=postgres" width="40px" alt="PostgreSQL"/><br>PostgreSQL</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=prisma" width="40px" alt="Prisma"/><br>Prisma</td>
+      <td align="center">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/apachekafka/E6E6E6">
+          <img src="https://cdn.simpleicons.org/apachekafka/231F20" width="40px" alt="Apache Kafka"/>
+        </picture>
+        <br>Kafka
+      </td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=docker" width="40px" alt="Docker"/><br>Docker</td>
+    </tr>
+    <!-- ROW 3 · Infra + Tooling -->
+    <tr>
+      <td align="center"><img src="https://skillicons.dev/icons?i=kubernetes" width="40px" alt="Kubernetes"/><br>Kubernetes</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=nginx" width="40px" alt="Nginx"/><br>Nginx</td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40px" alt="Linux"/><br>Linux</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=git" width="40px" alt="Git"/><br>Git</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=vercel" width="40px" alt="Vercel"/><br>Vercel</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=aws" width="40px" alt="AWS SES"/><br>AWS SES</td>
+      <td align="center"><img src="https://cdn.simpleicons.org/k6" width="40px" alt="k6"/><br>k6</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=postman" width="40px" alt="Postman"/><br>Postman</td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=vscode" width="40px" alt="VS Code"/><br>VS Code</td>
+      <td align="center"><img src="https://cdn.simpleicons.org/gnubash" width="40px" alt="Bash"/><br>Bash</td>
+    </tr>
+  </table>
 </div>
+
+## Elsewhere
+
+[Portfolio](https://aditya16.pages.dev) · [LinkedIn](https://www.linkedin.com/in/aditya-sharma-516491321) · [Résumé](<<paste-drive-link>>) · [Email](mailto:aditya16may@gmail.com)
+
+---
+
+*Off the clock: audiophile, lifter, long-form YouTube scholar.*
+*Designed and built from scratch — no templates.*
