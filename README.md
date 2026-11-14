@@ -13,7 +13,7 @@
 <!-- stats:start -->
 - Final-year B.Tech CSE at IIIT Ranchi
 - Open to opportunities
-- **394** contributions on GitHub
+- **395** contributions on GitHub
 - **13** public repos
 - Joined GitHub 2 years ago
 - [aditya16may@gmail.com](mailto:aditya16may@gmail.com)
