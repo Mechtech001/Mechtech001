@@ -7,7 +7,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg">
-  <img align="right" width="400" alt="Area chart of my monthly GitHub contributions over the last year" src="assets/contributions-light.svg">
+  <img align="right" width="440" alt="Area chart of my monthly GitHub contributions over the last year" src="assets/contributions-light.svg">
 </picture>
 
 <!-- stats:start -->

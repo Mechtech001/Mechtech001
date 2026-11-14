@@ -43,8 +43,8 @@ THEMES = {
     "light": dict(text="#57606a", axis="#6e7781", fill="#5a6e73"),
     "dark": dict(text="#9198a1", axis="#7d8590", fill="#6b8c93"),
 }
-W, H = 400, 204
-CX0, CX1, CY0, CY1 = 8, 338, 40, 168
+W, H = 440, 204
+CX0, CX1, CY0, CY1 = 8, 402, 40, 168
 TICKS = 4
 
 
@@ -93,6 +93,7 @@ def stats_block(user, today):
     return (
         f"- Final-year B.Tech CSE at IIIT Ranchi\n"
         f"- Open to opportunities\n"
+        f"- Graduating May 2027\n"
         f"- **{cal['totalContributions']:,}** contributions on GitHub\n"
         f"- **{user['repositories']['totalCount']}** public repos\n"
         f"- Joined GitHub {joined_text(user['createdAt'], today)}\n"
