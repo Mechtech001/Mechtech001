@@ -43,8 +43,9 @@ THEMES = {
     "light": dict(text="#57606a", axis="#6e7781", fill="#5a6e73"),
     "dark": dict(text="#9198a1", axis="#7d8590", fill="#6b8c93"),
 }
-W, H = 540, 204
-CX0, CX1, CY0, CY1 = 8, 478, 40, 168
+W, H = 400, 204
+CX0, CX1, CY0, CY1 = 8, 338, 40, 168
+TICKS = 4
 
 
 def fetch(login, token):
@@ -90,6 +91,8 @@ def joined_text(created_at, today):
 def stats_block(user, today):
     cal = user["contributionsCollection"]["contributionCalendar"]
     return (
+        f"- Final-year B.Tech CSE at IIIT Ranchi\n"
+        f"- Open to opportunities\n"
         f"- **{cal['totalContributions']:,}** contributions on GitHub\n"
         f"- **{user['repositories']['totalCount']}** public repos\n"
         f"- Joined GitHub {joined_text(user['createdAt'], today)}\n"
@@ -128,18 +131,22 @@ def graph_svg(t, series, total):
     area_d = f"{line_d} L{pts[-1][0]:.1f},{CY1} L{pts[0][0]:.1f},{CY1} Z"
 
     ticks = ""
-    for k in range(9):                         # 0 .. ymax in eight steps, like the original
-        v = ymax * k / 8
-        y = CY1 - (CY1 - CY0) * k / 8
+    for k in range(TICKS + 1):                 # four intervals keeps 13px labels from touching
+        v = ymax * k / TICKS
+        y = CY1 - (CY1 - CY0) * k / TICKS
         ticks += (f'<line x1="{CX1}" x2="{CX1 + 5}" y1="{y:.1f}" y2="{y:.1f}" stroke="{t["axis"]}"/>'
                   f'<text x="{CX1 + 9}" y="{y + 4:.1f}" font-size="13" fill="{t["text"]}">{v:g}</text>')
     xt = ""
     for i in range(n - 1, -1, -2):
-        key = series[i][0]
         x = pts[i][0]
-        xt += (f'<line x1="{x:.1f}" x2="{x:.1f}" y1="{CY1}" y2="{CY1 + 5}" stroke="{t["axis"]}"/>'
-               f'<text x="{x:.1f}" y="{CY1 + 23}" font-size="13" fill="{t["text"]}" text-anchor="middle">'
-               f'{key[2:4]}/{key[5:7]}</text>')
+        # ticks on every other month; every tick is labelled except the two ends,
+        # which sit on the plot edges and would push the margin out
+        xt += f'<line x1="{x:.1f}" x2="{x:.1f}" y1="{CY1}" y2="{CY1 + 5}" stroke="{t["axis"]}"/>'
+        if i == 0 or i == n - 1:
+            continue
+        key = series[i][0]
+        xt += (f'<text x="{x:.1f}" y="{CY1 + 23}" font-size="13" fill="{t["text"]}" '
+               f'text-anchor="middle">{key[2:4]}/{key[5:7]}</text>')
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="t d" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
   <title id="t">Contributions in the last year</title>

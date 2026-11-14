@@ -1,14 +1,19 @@
-# Aditya Sharma
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/name-dark.svg">
+    <img width="312" alt="Aditya Sharma" src="assets/name-light.svg">
+  </picture>
+</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg">
-  <img align="right" width="540" alt="Area chart of my monthly GitHub contributions over the last year" src="assets/contributions-light.svg">
+  <img align="right" width="400" alt="Area chart of my monthly GitHub contributions over the last year" src="assets/contributions-light.svg">
 </picture>
 
-<br>
-
 <!-- stats:start -->
-- **447** contributions on GitHub
+- Final-year B.Tech CSE at IIIT Ranchi
+- Open to opportunities
+- **394** contributions on GitHub
 - **13** public repos
 - Joined GitHub 2 years ago
 - [aditya16may@gmail.com](mailto:aditya16may@gmail.com)
