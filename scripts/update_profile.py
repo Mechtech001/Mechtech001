@@ -38,13 +38,13 @@ query($login: String!) {
 }
 """
 
-# Same look as the original card: white card, thin border, slate-teal area, axis on the right.
+# Transparent widget (no card, no border). Colours are chosen per theme so text stays readable.
 THEMES = {
-    "light": dict(bg="#ffffff", border="#d8dee4", text="#57606a", axis="#57606a", fill="#5a6e73"),
-    "dark": dict(bg="#0d1117", border="#30363d", text="#8b949e", axis="#8b949e", fill="#5f7f86"),
+    "light": dict(text="#57606a", axis="#6e7781", fill="#5a6e73"),
+    "dark": dict(text="#9198a1", axis="#7d8590", fill="#6b8c93"),
 }
-W, H = 540, 230
-CX0, CX1, CY0, CY1 = 24, 480, 58, 182
+W, H = 540, 204
+CX0, CX1, CY0, CY1 = 8, 478, 40, 168
 
 
 def fetch(login, token):
@@ -132,20 +132,19 @@ def graph_svg(t, series, total):
         v = ymax * k / 8
         y = CY1 - (CY1 - CY0) * k / 8
         ticks += (f'<line x1="{CX1}" x2="{CX1 + 5}" y1="{y:.1f}" y2="{y:.1f}" stroke="{t["axis"]}"/>'
-                  f'<text x="{CX1 + 9}" y="{y + 4:.1f}" font-size="11" fill="{t["text"]}">{v:g}</text>')
+                  f'<text x="{CX1 + 9}" y="{y + 4:.1f}" font-size="13" fill="{t["text"]}">{v:g}</text>')
     xt = ""
     for i in range(n - 1, -1, -2):
         key = series[i][0]
         x = pts[i][0]
         xt += (f'<line x1="{x:.1f}" x2="{x:.1f}" y1="{CY1}" y2="{CY1 + 5}" stroke="{t["axis"]}"/>'
-               f'<text x="{x:.1f}" y="{CY1 + 19}" font-size="11" fill="{t["text"]}" text-anchor="middle">'
+               f'<text x="{x:.1f}" y="{CY1 + 23}" font-size="13" fill="{t["text"]}" text-anchor="middle">'
                f'{key[2:4]}/{key[5:7]}</text>')
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="t d" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
   <title id="t">Contributions in the last year</title>
   <desc id="d">Area chart of monthly GitHub contributions. {total} contributions in the last year.</desc>
-  <rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="8" fill="{t["bg"]}" stroke="{t["border"]}"/>
-  <text x="{CX1}" y="36" font-size="12" fill="{t["text"]}" text-anchor="end">contributions in the last year</text>
+  <text x="{CX1}" y="18" font-size="14" fill="{t["text"]}" text-anchor="end">contributions in the last year</text>
   <path d="{area_d}" fill="{t["fill"]}"/>
   <line x1="{CX0}" x2="{CX1}" y1="{CY1}" y2="{CY1}" stroke="{t["axis"]}"/>
   <line x1="{CX1}" x2="{CX1}" y1="{CY0}" y2="{CY1}" stroke="{t["axis"]}"/>
