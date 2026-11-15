@@ -14,7 +14,7 @@
 - Final-year B.Tech CSE at IIIT Ranchi
 - Open to opportunities
 - Graduating May 2027
-- **395** contributions on GitHub
+- **399** contributions on GitHub
 - **13** public repos
 - Joined GitHub 2 years ago
 - [aditya16may@gmail.com](mailto:aditya16may@gmail.com)
